@@ -1,0 +1,76 @@
+@mixin push-auto {
+   margin-left: auto;
+   margin-right: auto;
+}
+
+@mixin box(
+   $width, 
+   $height: $width
+   ) {
+   width: $width;
+   height: $height;
+ }
+
+ @mixin padding (
+    $top: 16px, 
+    $bot: 16px, 
+    $right: 15px, 
+    $left: 15px
+    ) {
+   padding-top: $top;
+   padding-bottom: $bot;
+   padding-right: $right;
+   padding-left: $left;
+ }
+
+@mixin flex-center(
+   $type: flex, 
+   ) {
+   display: $type;
+   align-items: center;
+ }
+
+ @mixin transition(
+   $tp: all, 
+   $td: 250ms,
+   $ttf: cubic-bezier(0.4, 0, 0.2, 1), 
+   $tdel: 0ms
+   ) {
+   transition-property: $tp;
+   transition-duration: $td;
+   transition-timing-function: $ttf;
+   transition-delay: $tdel;
+ }
+
+@mixin bkg-img(
+   $repeat: no-repeat,
+   $size: cover,
+   $position: center
+   ) {
+   background-repeat: $repeat;
+   background-size: $size;
+   background-position: $position;
+}
+
+
+@mixin pseudo(
+  $width: 100%,
+  $height: 100%,
+  $display: inline-block,
+  $pos: absolute,
+  $content: ""
+) {
+  content: $content;
+  display: $display;
+  position: $pos;
+  @include box($width, $height);
+}
+
+
+//========== text ==========
+.text_qwe {
+   @include  bkg-img;
+   @include transition;
+   @include  flex-center;
+   @include pseudo(50px, 70px)
+}
