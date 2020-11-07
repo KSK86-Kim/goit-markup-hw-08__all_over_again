@@ -83,7 +83,7 @@ img {
   border: 1px solid green;
 }
 
-.active {
+.nav__link.active {
   color: #18a0fb;
 }
 
