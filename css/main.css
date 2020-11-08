@@ -231,8 +231,7 @@ img {
   color: #ffffff;
 }
 
-.btn:hover,
-.btn:focus {
+.btn:hover, .btn:focus {
   background-color: #18a0fb;
 }
 
@@ -264,12 +263,10 @@ img {
   height: 44px;
   border-radius: 50%;
   fill: #afb1b8;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.socials__link:focus,
-.socials__link:hover {
+.socials__link:focus, .socials__link:hover {
   background-color: #18a0fb;
   fill: #ffffff;
 }
@@ -296,8 +293,7 @@ img {
 .modal {
   transform: scale(1);
   background-color: #ffffff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transition: transform 400ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -328,14 +324,12 @@ img {
   height: 30px;
 }
 
-.modal-close__btn:focus,
-.modal-close__btn:hover {
+.modal-close__btn:focus, .modal-close__btn:hover {
   fill: #18a0fb;
 }
 
 .backdrop.is-hidden .modal {
-  transform: translate3d(-50%, -50%, -40px) rotate3d(0, 1.5, 0, 180deg)
-    scale(0.5);
+  transform: translate3d(-50%, -50%, -40px) rotate3d(0, 1.5, 0, 180deg) scale(0.5);
   transition: transform 400ms cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
@@ -416,8 +410,7 @@ img {
   }
 }
 
-.modal-form-input,
-.modal-form-massage {
+.modal-form-input, .modal-form-massage {
   border: 1px solid rgba(33, 33, 33, 0.2);
   box-sizing: border-box;
   border-radius: 4px;
@@ -425,8 +418,7 @@ img {
   outline: none;
 }
 
-.modal-form-input:focus,
-.modal-form-massage:focus {
+.modal-form-input:focus, .modal-form-massage:focus {
   border: 1px solid #2196f3;
 }
 
@@ -516,7 +508,7 @@ img {
   height: 15px;
   border: 2px solid #757575;
   border-radius: 2px;
-  background-image: url(../../images/icon-check.svg);
+  background-image: url(../images/icon-check.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -580,8 +572,7 @@ img {
     padding: 60px 0;
     background: #ffffff;
     z-index: 2;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08),
-      0px 1px 3px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
   }
   .menu-container.is-open {
     display: block;
@@ -622,8 +613,7 @@ img {
     background-color: transparent;
     border: none;
   }
-  .menu-button:hover,
-  .menu-button:focus {
+  .menu-button:hover, .menu-button:focus {
     fill: #2196f3;
   }
 }
@@ -664,12 +654,10 @@ img {
   font-weight: 500;
   letter-spacing: 0.02em;
   color: #212121;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.nav__link:hover,
-.nav__link:focus {
+.nav__link:hover, .nav__link:focus {
   color: #2196f3;
 }
 
@@ -750,12 +738,10 @@ img {
   fill: #757575;
   font-size: 18px;
   line-height: 1.166;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.header-contacts__link:hover,
-.header-contacts__link:focus {
+.header-contacts__link:hover, .header-contacts__link:focus {
   color: #2196f3;
   fill: #2196f3;
 }
@@ -784,48 +770,24 @@ img {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: linear-gradient(
-      to right,
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
-    url("../images/images-main/hero/mobile/hero-bg-mobile@1x.jpg");
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/images-main/hero/mobile/hero-bg-mobile@1x.jpg");
 }
 
-@media screen and (min-device-pixel-ratio: 2),
-  screen and (min-resolution: 192dpi),
-  screen and (min-resolution: 2dppx) {
+@media screen and (min-device-pixel-ratio: 2), screen and (min-resolution: 192dpi), screen and (min-resolution: 2dppx) {
   .hero__wrapper {
-    background-image: linear-gradient(
-        to right,
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)
-      ),
-      url("../images/images-main/hero/mobile/hero-bg-mobile@2x.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/images-main/hero/mobile/hero-bg-mobile@2x.jpg");
   }
 }
 
 @media screen and (min-width: 768px) {
   .hero__wrapper {
-    background-image: linear-gradient(
-        to right,
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)
-      ),
-      url("../images/images-main/hero/tablet/hero-bg-tablet@1x.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/images-main/hero/tablet/hero-bg-tablet@1x.jpg");
   }
 }
 
-@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px),
-  screen and (min-resolution: 192dpi) and (min-width: 768px),
-  screen and (min-resolution: 2dppx) and (min-width: 768px) {
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 768px), screen and (min-resolution: 192dpi) and (min-width: 768px), screen and (min-resolution: 2dppx) and (min-width: 768px) {
   .hero__wrapper {
-    background-image: linear-gradient(
-        to right,
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)
-      ),
-      url("../images/images-main/hero/tablet/hero-bg-tablet@2x.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/images-main/hero/tablet/hero-bg-tablet@2x.jpg");
   }
 }
 
@@ -833,25 +795,13 @@ img {
   .hero__wrapper {
     max-width: 1600px;
     background-size: cover;
-    background-image: linear-gradient(
-        to right,
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)
-      ),
-      url("../images/images-main/hero/desktop/hero-bg-desktop@1x.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/images-main/hero/desktop/hero-bg-desktop@1x.jpg");
   }
 }
 
-@media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px),
-  screen and (min-resolution: 192dpi) and (min-width: 1200px),
-  screen and (min-resolution: 2dppx) and (min-width: 1200px) {
+@media screen and (min-device-pixel-ratio: 2) and (min-width: 1200px), screen and (min-resolution: 192dpi) and (min-width: 1200px), screen and (min-resolution: 2dppx) and (min-width: 1200px) {
   .hero__wrapper {
-    background-image: linear-gradient(
-        to right,
-        rgba(47, 48, 58, 0.4),
-        rgba(47, 48, 58, 0.4)
-      ),
-      url("../images/images-main/hero/desktop/hero-bg-desktop@2x.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/images-main/hero/desktop/hero-bg-desktop@2x.jpg");
   }
 }
 
@@ -1035,8 +985,7 @@ img {
   text-align: center;
   border-radius: 0px 0px 4px 4px;
   background: #ffffff;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
-    0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 @media screen and (max-width: 767px) {
@@ -1212,8 +1161,7 @@ img {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-contacts__map,
-.footer-contacts__link {
+.footer-contacts__map, .footer-contacts__link {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -1221,10 +1169,7 @@ img {
   letter-spacing: 0.03em;
 }
 
-.footer-contacts__map:hover,
-.footer-contacts__map:focus,
-.footer-contacts__link:hover,
-.footer-contacts__link:focus {
+.footer-contacts__map:hover, .footer-contacts__map:focus, .footer-contacts__link:hover, .footer-contacts__link:focus {
   color: #18a0fb;
 }
 
@@ -1280,8 +1225,7 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.join__link:hover,
-.join__link:focus {
+.join__link:hover, .join__link:focus {
   background-color: #18a0fb;
 }
 
