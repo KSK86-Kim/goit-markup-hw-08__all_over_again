@@ -84,7 +84,7 @@
 
     &:hover,
     &:focus {
-      fill: aqua;
+      fill: $accent-form-color;
     }
   }
   @media screen and(min-width:768px) {

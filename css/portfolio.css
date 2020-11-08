@@ -308,7 +308,7 @@ img {
     border: none;
   }
   .menu-button:hover, .menu-button:focus {
-    fill: aqua;
+    fill: #2196f3;
   }
 }
 
