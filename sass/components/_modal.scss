@@ -20,7 +20,7 @@
 .modal {
   @media screen and(max-width:1199px) {
     width: 450px;
-    height: 610px;
+    min-height: 610px;
   }
   @media screen and(min-width:1200px) {
     width: 528px;
